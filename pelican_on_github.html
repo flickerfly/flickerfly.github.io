@@ -116,6 +116,7 @@ Buzzing Bye            </a>
 
 
 <p>I have those run outside the container, because I don't like passing my credentials into containers.</p>
+<p>If you make any manual changes to the website repo, you may need to add the <code>--force</code> to clear out anything you manually changed in the repo like adding a README in it. Make no changes there to keep this process clean.</p>
 <h2>Plugins and Themes</h2>
 <p>I found git submodules to be a useful way to handle plugins and themes. I simply added these to the builder repo so that I would have all the themes and plugins at hand to mess with. You may want to clean this up later. </p>
 <div class="highlight"><pre><span></span>$ cat .gitmodules

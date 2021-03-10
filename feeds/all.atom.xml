@@ -9,6 +9,7 @@
 
 
 &lt;p&gt;I have those run outside the container, because I don't like passing my credentials into containers.&lt;/p&gt;
+&lt;p&gt;If you make any manual changes to the website repo, you may need to add the &lt;code&gt;--force&lt;/code&gt; to clear out anything you manually changed in the repo like adding a README in it. Make no changes there to keep this process clean.&lt;/p&gt;
 &lt;h2&gt;Plugins and Themes&lt;/h2&gt;
 &lt;p&gt;I found git submodules to be a useful way to handle plugins and themes. I simply added these to the builder repo so that I would have all the themes and plugins at hand to mess with. You may want to clean this up later. &lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ cat .gitmodules
